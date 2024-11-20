@@ -1,0 +1,501 @@
+[0.010s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.124s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.256s] -- livox_ros_driver2 version: 1.0.0
+[0.258s] -- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.498s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.572s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.779s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.924s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.971s] -- Found FastRTPS: /opt/ros/humble/include
+[1.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.142s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.144s] -- Found Threads: TRUE
+[1.645s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[1.645s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.645s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.645s]   cmake_policy command to set the policy and suppress this warning.
+[1.645s] 
+[1.645s]   CMake variable EIGEN_ROOT is set to:
+[1.645s] 
+[1.645s]     /usr/include/eigen3
+[1.645s] 
+[1.645s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.645s]   .cmake module might still use it.
+[1.645s] Call Stack (most recent call first):
+[1.645s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[1.646s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.646s]   CMakeLists.txt:226 (find_package)
+[1.646s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.646s] [0m
+[1.649s] -- Checking for module 'eigen3'
+[1.660s] --   Found eigen3, version 3.4.0
+[1.687s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1")
+[1.687s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.687s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[1.687s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[1.687s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[1.687s]   set the policy and suppress this warning.
+[1.688s] 
+[1.688s] Call Stack (most recent call first):
+[1.688s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[1.688s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.688s]   CMakeLists.txt:226 (find_package)
+[1.688s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.688s] [0m
+[1.719s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization
+[1.721s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[1.721s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.721s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.721s]   cmake_policy command to set the policy and suppress this warning.
+[1.721s] 
+[1.721s]   CMake variable FLANN_ROOT is set to:
+[1.721s] 
+[1.721s]     /usr
+[1.721s] 
+[1.721s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.721s]   .cmake module might still use it.
+[1.721s] Call Stack (most recent call first):
+[1.721s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[1.722s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[1.722s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[1.722s]   CMakeLists.txt:226 (find_package)
+[1.722s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.722s] [0m
+[1.738s] -- Checking for module 'flann'
+[1.751s] --   Found flann, version 1.9.1
+[1.785s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+[1.785s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.820s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+[1.827s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX
+[1.961s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1")
+[1.961s] -- Found MPI: TRUE (found version "3.1") found components: C
+[1.964s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0")
+[1.977s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[2.000s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[2.017s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0")
+[2.143s] -- Found X11: /usr/include
+[2.143s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.198s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.199s] -- Looking for gethostbyname
+[2.251s] -- Looking for gethostbyname - found
+[2.251s] -- Looking for connect
+[2.299s] -- Looking for connect - found
+[2.299s] -- Looking for remove
+[2.347s] -- Looking for remove - found
+[2.347s] -- Looking for shmat
+[2.399s] -- Looking for shmat - found
+[2.399s] -- Looking for IceConnectionNumber in ICE
+[2.444s] -- Looking for IceConnectionNumber in ICE - found
+[2.556s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7")
+[2.558s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so
+[2.561s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3")
+[2.562s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5")
+[2.574s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")
+[2.589s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")
+[2.595s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1")
+[2.600s] -- Found utf8cpp: /usr/include/utf8cpp
+[2.678s] -- Checking for module 'libusb-1.0'
+[2.690s] --   Found libusb-1.0, version 1.0.25
+[2.718s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+[2.719s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0")
+[2.719s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.778s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33")
+[2.778s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.779s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[3.270s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:128 (find_package):
+[3.270s]   Policy CMP0167 is not set: The FindBoost module is removed.  Run "cmake
+[3.270s]   --help-policy CMP0167" for policy details.  Use the cmake_policy command to
+[3.271s]   set the policy and suppress this warning.
+[3.271s] 
+[3.271s] Call Stack (most recent call first):
+[3.271s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:297 (find_boost)
+[3.271s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[3.271s]   CMakeLists.txt:226 (find_package)
+[3.271s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.271s] [0m
+[3.292s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[3.301s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.313s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.813s] -- Found Qhull version 8.0.2
+[4.063s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.285s] -- looking for PCL_COMMON
+[4.286s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+[4.286s] -- looking for PCL_KDTREE
+[4.286s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+[4.287s] -- looking for PCL_OCTREE
+[4.287s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+[4.287s] -- looking for PCL_SEARCH
+[4.288s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+[4.288s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.289s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+[4.289s] -- looking for PCL_FILTERS
+[4.289s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+[4.289s] -- looking for PCL_2D
+[4.289s] -- Found PCL_2D: /usr/include/pcl-1.12
+[4.289s] -- looking for PCL_GEOMETRY
+[4.290s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12
+[4.290s] -- looking for PCL_IO
+[4.290s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+[4.291s] -- looking for PCL_FEATURES
+[4.291s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+[4.291s] -- looking for PCL_ML
+[4.292s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+[4.292s] -- looking for PCL_SEGMENTATION
+[4.293s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+[4.293s] -- looking for PCL_VISUALIZATION
+[4.293s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so
+[4.293s] -- looking for PCL_SURFACE
+[4.294s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+[4.294s] -- looking for PCL_REGISTRATION
+[4.295s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so
+[4.295s] -- looking for PCL_KEYPOINTS
+[4.296s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
+[4.296s] -- looking for PCL_TRACKING
+[4.297s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
+[4.297s] -- looking for PCL_RECOGNITION
+[4.297s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so
+[4.297s] -- looking for PCL_STEREO
+[4.298s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so
+[4.298s] -- looking for PCL_APPS
+[4.299s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
+[4.299s] -- looking for PCL_IN_HAND_SCANNER
+[4.299s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12
+[4.300s] -- looking for PCL_MODELER
+[4.300s] -- Found PCL_MODELER: /usr/include/pcl-1.12
+[4.300s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.300s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12
+[4.300s] -- looking for PCL_OUTOFCORE
+[4.301s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
+[4.301s] -- looking for PCL_PEOPLE
+[4.302s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so
+[4.302s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL
+[4.306s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2")
+[4.307s] -- Checking for module 'apr-1'
+[4.309s] --   No package 'apr-1' found
+[4.606s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.983s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.383s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[5.384s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.384s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.384s]   the cmake_policy command to set the policy and suppress this warning.
+[5.384s] 
+[5.384s] Call Stack (most recent call first):
+[5.384s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.384s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.384s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[5.384s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.384s] [0m
+[5.399s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[5.401s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.401s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[5.401s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.401s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.401s]   the cmake_policy command to set the policy and suppress this warning.
+[5.401s] 
+[5.401s] Call Stack (most recent call first):
+[5.401s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.401s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.401s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.401s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[5.401s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.401s] [0m
+[5.415s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[5.415s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.415s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.415s]   the cmake_policy command to set the policy and suppress this warning.
+[5.416s] 
+[5.416s] Call Stack (most recent call first):
+[5.416s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.416s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.416s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.416s]   CMakeLists.txt:241 (rosidl_generate_interfaces)
+[5.416s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.416s] [0m
+[5.419s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[5.420s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.420s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.421s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.433s] -- Found PythonExtra: .so
+[5.528s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.543s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.545s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.546s] -- Configured cppcheck include dirs: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2/msg/;/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2/3rdparty;/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2/src
+[5.546s] -- Configured cppcheck exclude dirs and/or files: 
+[5.548s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.548s] -- Configured cpplint exclude dirs and/or files: 
+[5.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.549s] -- Added test 'lint_cmake' to check CMake code style
+[5.549s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.551s] -- Added test 'uncrustify' to check C / C++ code style
+[5.551s] -- Configured uncrustify additional arguments: 
+[5.552s] -- Added test 'xmllint' to check XML markup files
+[5.553s] -- Configuring done (5.5s)
+[5.612s] -- Generating done (0.1s)
+[5.612s] -- Build files have been written to: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2
+[5.626s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2
+[5.626s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2 -- -j32 -l32
+[5.686s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.690s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.691s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[5.692s] [  5%] Built target ament_cmake_python_copy_livox_ros_driver2
+[5.857s] running egg_info
+[5.858s] creating livox_ros_driver2.egg-info
+[5.858s] writing livox_ros_driver2.egg-info/PKG-INFO
+[5.858s] writing dependency_links to livox_ros_driver2.egg-info/dependency_links.txt
+[5.858s] writing top-level names to livox_ros_driver2.egg-info/top_level.txt
+[5.858s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[5.860s] reading manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[5.860s] writing manifest file 'livox_ros_driver2.egg-info/SOURCES.txt'
+[5.875s] [  5%] Built target ament_cmake_python_build_livox_ros_driver2_egg
+[5.963s] [  5%] Built target livox_interfaces2__cpp
+[5.967s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.967s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.968s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.971s] [ 12%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[5.971s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[6.005s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[6.030s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[6.035s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.036s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.036s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.243s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[6.243s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[6.264s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[6.264s] [ 28%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[6.302s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[6.302s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[6.320s] [ 33%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[6.321s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[6.328s] [ 36%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[6.343s] [ 38%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[6.343s] [ 40%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[6.355s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_c
+[6.371s] [ 42%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[6.389s] [ 42%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[6.395s] [ 43%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[6.395s] [ 45%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[6.544s] [ 47%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.549s] [ 49%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[6.580s] [ 49%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[6.594s] [ 49%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[6.654s] [ 50%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[6.657s] [ 52%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[6.707s] [ 52%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[6.710s] [ 52%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[6.719s] [ 52%] Built target livox_interfaces2
+[6.730s] [ 54%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.731s] [ 56%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[6.732s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[6.732s] [ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[6.732s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[6.732s] [ 63%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[6.732s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[6.733s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[6.733s] [ 68%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[6.733s] [ 70%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[6.733s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[6.734s] [ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[6.734s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[6.734s] [ 77%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[6.734s] [ 78%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[6.737s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[7.394s] [ 80%] Built target livox_interfaces2__py
+[7.406s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[7.406s] [ 84%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_py.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[7.497s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so[0m
+[7.533s] [ 85%] Built target livox_interfaces2__rosidl_generator_py
+[7.545s] [ 87%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.545s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[7.545s] [ 91%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.623s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.623s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.640s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.649s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[7.657s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[7.669s] [ 96%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[8.240s] [ 98%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[8.328s] [ 98%] Built target livox_ros_driver2_node
+[12.131s] [100%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[12.531s] [100%] Built target livox_ros_driver2
+[12.537s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2 -- -j32 -l32
+[12.680s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2
+[12.722s] -- Install configuration: ""
+[12.722s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+[12.722s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.722s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.722s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.c
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__functions.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__functions.c
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.h
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+[12.723s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+[12.724s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+[12.724s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.724s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.724s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.724s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.724s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+[12.724s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+[12.724s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+[12.724s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+[12.724s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.724s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.724s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.725s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.c
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+[12.725s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+[12.725s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+[12.725s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.725s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.725s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_msg.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/custom_point.hpp
+[12.726s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+[12.726s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.726s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.726s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/dds_fastrtps
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[12.726s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+[12.727s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.727s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2
+[12.727s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg
+[12.727s] -- Up-to-date: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail
+[12.727s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+[12.727s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+[12.727s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+[12.727s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/livox_ros_driver2/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+[12.727s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+[12.727s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+[12.728s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/SOURCES.txt
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/dependency_links.txt
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/PKG-INFO
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2-1.0.0-py3.10.egg-info/top_level.txt
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/liblivox_interfaces2__rosidl_generator_py.so
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point_s.c
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg_s.c
+[12.728s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.729s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c
+[12.729s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.748s] Listing '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2'...
+[12.748s] Compiling '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/__init__.py'...
+[12.748s] Listing '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg'...
+[12.748s] Compiling '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/__init__.py'...
+[12.748s] Compiling '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_msg.py'...
+[12.748s] Compiling '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/msg/_custom_point.py'...
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.750s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.750s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.750s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/local/lib/python3.10/dist-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so
+[12.750s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_interfaces2__rosidl_generator_py.so" to ""
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+[12.750s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+[12.751s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+[12.751s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+[12.753s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/config
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/launch
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/launch/msg_MID360_launch.py
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_mixed.py
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/launch/laserscan_MID360_launch.py
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/launch/rviz_MID360_launch.py
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+[12.753s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_cppExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/export_livox_interfaces2__rosidl_generator_pyExport-noconfig.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.754s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+[12.755s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/share/livox_ros_driver2/package.xml
+[12.756s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_base:/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/Tinker_HOME/tk24_navigation/install/ugv_sdk:/home/tinker/Tinker_HOME/tk24_navigation/install/tracer_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/tk_nav_interfaces:/home/tinker/Tinker_HOME/tk24_navigation/install/tinker_nav_bringup:/home/tinker/Tinker_HOME/tk24_navigation/install/rtab_map:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_description:/home/tinker/Tinker_HOME/tk24_navigation/install/orbbec_camera_msgs:/home/tinker/Tinker_HOME/tk24_navigation/install/compute_grasp_interface /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/livox_ros_driver2

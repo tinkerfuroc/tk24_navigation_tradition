@@ -1,0 +1,93 @@
+[0.009s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base
+[0.053s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.053s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.053s]   CMake.
+[0.053s] 
+[0.053s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.053s]   CMake that the project does not need compatibility with older versions.
+[0.053s] 
+[0.053s] [0m
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.175s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.248s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.249s] -- Detecting CXX compile features
+[0.249s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.354s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.423s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.454s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.464s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.474s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.539s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.541s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.623s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.647s] -- Found FastRTPS: /opt/ros/humble/include
+[0.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.768s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.768s] -- Found Threads: TRUE
+[0.901s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.941s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.023s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.105s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.119s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.420s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.434s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.435s] -- Found Eigen3: TRUE (found version "3.4.0")
+[1.435s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.444s] -- Found tracer_msgs: 0.1.0 (/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/share/tracer_msgs/cmake)
+[1.499s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.561s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.562s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.563s] -- Configured cppcheck include dirs: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base/include
+[1.563s] -- Configured cppcheck exclude dirs and/or files: 
+[1.563s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.563s] -- Configured cpplint exclude dirs and/or files: 
+[1.564s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.564s] -- Added test 'lint_cmake' to check CMake code style
+[1.565s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.565s] -- Added test 'uncrustify' to check C / C++ code style
+[1.566s] -- Configured uncrustify additional arguments: 
+[1.566s] -- Added test 'xmllint' to check XML markup files
+[1.567s] -- Configuring done (1.5s)
+[1.579s] -- Generating done (0.0s)
+[1.579s] -- Build files have been written to: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base
+[1.589s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base -DCMAKE_INSTALL_PREFIX=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base
+[1.591s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base -- -j32 -l32
+[1.685s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_node.cpp.o[0m
+[1.685s] [ 66%] [32mBuilding CXX object CMakeFiles/tracer_base_node.dir/src/tracer_base_ros.cpp.o[0m
+[9.215s] [100%] [32m[1mLinking CXX executable tracer_base_node[0m
+[9.532s] [100%] Built target tracer_base_node
+[9.544s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base -- -j32 -l32
+[9.611s] Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base
+[9.655s] -- Install configuration: ""
+[9.655s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/lib/tracer_base/tracer_base_node
+[9.661s] -- Set non-toolchain portion of runtime path of "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/lib/tracer_base/tracer_base_node" to ""
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base//launch
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base//launch/tracer_mini_base.launch.py
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base//launch/tracer_base.launch.py
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/ament_index/resource_index/package_run_dependencies/tracer_base
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/ament_index/resource_index/parent_prefix_path/tracer_base
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/environment/ament_prefix_path.sh
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/environment/ament_prefix_path.dsv
+[9.661s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/environment/path.sh
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/environment/path.dsv
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/local_setup.bash
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/local_setup.sh
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/local_setup.zsh
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/local_setup.dsv
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/package.dsv
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/ament_index/resource_index/packages/tracer_base
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig.cmake
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/cmake/tracer_baseConfig-version.cmake
+[9.662s] -- Installing: /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_base/share/tracer_base/package.xml
+[9.663s] Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base' returned '0': AMENT_PREFIX_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tinker/Tinker_HOME/tk24_navigation/install/ros2_grasp_position_compute:/home/tinker/Tinker_HOME/tk24_navigation/install/nav_api:/opt/ros/humble:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/x86_64-linux-gnu/pkgconfig:/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/ugv_sdk/share:${ROS_PACKAGE_PATH} /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/tracer_base

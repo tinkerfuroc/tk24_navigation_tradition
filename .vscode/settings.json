@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tinker/ws_tk25/install/xarm_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/uf_ros_lib/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/tk_nav_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/arm_api/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/tinker_arm_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/ros2_grasp_position_compute/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/nav_api/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/contact_graspnet_ros2/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/compute_grasp_interface/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/anygrasp_ros2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tinker/ws_tk25/install/xarm_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/uf_ros_lib/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/tracer_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/tk_nav_interfaces/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/arm_api/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/tinker_arm_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/ros2_grasp_position_compute/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/nav_api/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/contact_graspnet_ros2/lib/python3.10/site-packages",
+        "/home/tinker/ws_tk25/install/compute_grasp_interface/local/lib/python3.10/dist-packages",
+        "/home/tinker/ws_tk25/install/anygrasp_ros2/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
