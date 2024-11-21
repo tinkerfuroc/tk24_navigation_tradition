@@ -43,9 +43,10 @@ def generate_launch_description():
                 'simulated_robot': launch.substitutions.LaunchConfiguration('simulated_robot'),
                 'control_rate': launch.substitutions.LaunchConfiguration('control_rate'),
         }],
-        remappings=[
-            ('/cmd_vel', '/tinker_controller/cmd_vel_unstamped'),
-        ])
+        # remappings=[
+        #     ('/cmd_vel', '/tinker_controller/cmd_vel_unstamped'),
+        # ]
+        )
 
     return LaunchDescription([
         use_sim_time_arg,

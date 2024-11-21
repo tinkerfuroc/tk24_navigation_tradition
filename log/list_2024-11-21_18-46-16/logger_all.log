@@ -1,0 +1,168 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x78f4fb17d570>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x78f4fb17c520>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x78f4fb17c520>>, mixin_verb=('list',))
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'ros'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['cmake', 'python']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'cmake'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'python'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extensions ['python_setup_py']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition) by extension 'python_setup_py'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/log) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/log) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/log) ignored
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/config) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/cpp) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/cpp) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/eval) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/python) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/python) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/python) ignored
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/kiss-icp/ros' with type 'ros.ament_cmake' and name 'kiss_icp'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/navigation_bringup' with type 'ros.ament_cmake' and name 'navigation_bringup'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base' with type 'ros.ament_cmake' and name 'tracer_base'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_msgs' with type 'ros.ament_cmake' and name 'tracer_msgs'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk' with type 'ros.catkin' and name 'ugv_sdk'
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

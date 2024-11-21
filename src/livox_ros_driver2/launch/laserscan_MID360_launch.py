@@ -13,7 +13,7 @@ multi_topic   = 0    # 0-All LiDARs share the same topic, 1-One LiDAR one topic
 data_src      = 0    # 0-lidar, others-Invalid data src
 publish_freq  = 10.0 # freqency of publish, 5.0, 10.0, 20.0, 50.0, etc.
 output_type   = 0
-frame_id      = 'base_link'
+frame_id      = 'livox360'
 lvx_file_path = '/home/livox/livox_test.lvx'
 cmdline_bd_code = 'livox0000000001'
 
@@ -80,12 +80,20 @@ def generate_launch_description():
             }],
             name='pointcloud_to_laserscan'
         )
+    
+    map_scan_tf = Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_transform_publisher',
+            arguments=['0', '0', '0', '0', '0', '0', '1', 'map', 'scan']
+        )
 
     return LaunchDescription([
         # declare_ns_cmd,
         # declare_targetns_cmd,
         livox_driver,
         pointcloud2laserscan,
+        # map_scan_tf,
         # launch.actions.RegisterEventHandler(
         #     event_handler=launch.event_handlers.OnProcessExit(
         #         target_action=livox_rviz,

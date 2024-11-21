@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/tracer_msgs/include/**",
+        "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/install/livox_ros_driver2/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/tracer_ros2/tracer_base/include/**",
+        "/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/src/ugv_sdk/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
