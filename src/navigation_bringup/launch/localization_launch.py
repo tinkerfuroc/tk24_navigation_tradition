@@ -29,6 +29,7 @@ from nav2_common.launch import RewrittenYaml
 def generate_launch_description():
     # Get the launch directory
     bringup_dir = get_package_share_directory('navigation_bringup')
+    local_bringup_dir = get_package_share_directory('navigation_bringup')
 
     namespace = LaunchConfiguration('namespace')
     map_yaml_file = LaunchConfiguration('map')
@@ -40,6 +41,7 @@ def generate_launch_description():
     container_name_full = (namespace, '/', container_name)
     use_respawn = LaunchConfiguration('use_respawn')
     log_level = LaunchConfiguration('log_level')
+    localization_params_file = LaunchConfiguration('localization_params_file')
 
     lifecycle_nodes = ['map_server', 'amcl']
 
@@ -107,6 +109,12 @@ def generate_launch_description():
         'log_level', default_value='info',
         description='log level')
 
+    declare_localization_params_file_cmd = DeclareLaunchArgument(
+        'localization_params_file',
+        default_value=os.path.join(local_bringup_dir,
+                                   'params', 'ekf.yaml'),
+        description='Full path to the ROS2 parameters file to use for the localization')
+
     load_nodes = GroupAction(
         condition=IfCondition(PythonExpression(['not ', use_composition])),
         actions=[
@@ -157,7 +165,7 @@ def generate_launch_description():
                 plugin='nav2_amcl::AmclNode',
                 name='amcl',
                 parameters=[configured_params],
-                remappings=remappings),
+            #     remappings=remappings),
             ComposableNode(
                 package='nav2_lifecycle_manager',
                 plugin='nav2_lifecycle_manager::LifecycleManager',
@@ -166,6 +174,14 @@ def generate_launch_description():
                              'autostart': autostart,
                              'node_names': lifecycle_nodes}]),
         ],
+    )
+
+    robot_localization_node = Node(
+       package='robot_localization',
+       executable='ekf_node',
+       name='ekf_filter_node',
+       output='screen',
+       parameters=[localization_params_file]
     )
 
     # Create the launch description and populate
@@ -184,9 +200,11 @@ def generate_launch_description():
     ld.add_action(declare_container_name_cmd)
     ld.add_action(declare_use_respawn_cmd)
     ld.add_action(declare_log_level_cmd)
+    ld.add_action(declare_localization_params_file_cmd)
 
     # Add the actions to launch all of the localiztion nodes
     ld.add_action(load_nodes)
     ld.add_action(load_composable_nodes)
+    ld.add_action(robot_localization_node)
 
     return ld
