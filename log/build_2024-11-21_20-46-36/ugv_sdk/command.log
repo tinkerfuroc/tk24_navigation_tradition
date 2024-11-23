@@ -1,4 +1,0 @@
-Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk': /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk -- -j32 -l32
-Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk' returned '0': /home/tinker/.local/bin/cmake --build /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk -- -j32 -l32
-Invoking command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk': /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk
-Invoked command in '/home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk' returned '0': /home/tinker/.local/bin/cmake --install /home/tinker/tk24_navigation_tradition/tk24_navigation_tradition/build/ugv_sdk
