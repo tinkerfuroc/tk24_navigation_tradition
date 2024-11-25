@@ -46,6 +46,6 @@ def generate_launch_description():
         tracer_launch,
         livox_launch,
         orbbec_tf,
-        kissicp_launch,
+        # kissicp_launch,
         rviz_launch
     ])

@@ -164,7 +164,7 @@ def generate_launch_description():
                 package='nav2_amcl',
                 plugin='nav2_amcl::AmclNode',
                 name='amcl',
-                parameters=[configured_params],
+                parameters=[configured_params]),
             #     remappings=remappings),
             ComposableNode(
                 package='nav2_lifecycle_manager',
